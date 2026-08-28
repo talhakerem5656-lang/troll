@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<title>VİRÜS!</title>
+<style>
+    body {
+        margin: 0;
+        background: #111;
+        color: red;
+        font-family: Arial, sans-serif;
+        text-align: center;
+    }
+
+    h1 {
+        margin-top: 30vh;
+        font-size: 60px;
+    }
+
+    img {
+        display: none;
+        width: 400px;
+        max-width: 90%;
+        margin: 30px auto;
+    }
+
+    button {
+        padding: 15px 30px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+</style>
+</head>
+<body>
+
+<h1 id="yazi">☠️ VİRÜS TESPİT EDİLDİ ☠️</h1>
+<button id="buton" onclick="troll()">VİRÜSÜ TEMİZLE</button>
+
+<img id="troll" src="https://i.imgflip.com/30b1gx.jpg">
+
+<script>
+function troll() {
+    document.getElementById("yazi").style.display = "none";
+    document.getElementById("buton").style.display = "none";
+    document.getElementById("troll").style.display = "block";
+}
+</script>
+
+</body>
+</html>
